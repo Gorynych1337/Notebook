@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/layout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style = "@style/sublayout"
+        android:background="@color/dark_purple">
+
+        <TextView
+            style = "@style/inner_text"
+            android:gravity="center_horizontal"
+
+            android:text="🟪"/>
+
+        <TextView
+            android:id="@+id/header_text"
+            style = "@style/inner_text"
+            android:textColor="@color/light_blue"
+
+            android:layout_weight="50"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/note_text"
+        style="@style/text"
+        app:autoSizeTextType="uniform"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/note_priority"
+        style="@style/text"
+        app:autoSizeTextType="uniform"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/note_data"
+        style="@style/text"
+        android:gravity="right"
+        app:autoSizeTextType="uniform"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style = "@style/sublayout"
+        android:background="@color/light_purple"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/spinner_tw"
+
+            android:layout_weight="10"
+
+            android:padding = "@dimen/inner_padding"
+            android:layout_height = "wrap_content"
+            android:layout_width = "wrap_content"
+            android:textSize = "@dimen/text_size"
+            android:textColor = "@color/dark_purple"
+            android:gravity="center_horizontal"
+            tools:ignore="MissingConstraints"/>
+
+        <TextView
+            android:layout_weight="0"
+
+            style = "@style/inner_text"
+            android:gravity="center_horizontal"
+            android:text="🟪"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

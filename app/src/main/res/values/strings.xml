@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LW33</string>
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="add_btn">Add note!</string>
+
+    <string name="header_hint">Type header here</string>
+    <string name="text_hint">Type your note here</string>
+    <string name="delete_btn">Delete</string>
+</resources>
